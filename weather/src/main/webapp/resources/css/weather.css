@@ -57,15 +57,15 @@ img{
 }
 
 p {
-    margin: 0 0 40px !important;
+    margin: 0 0 35px !important;
 }
 
 
 
 
 
-/* 큰 화면 */
-@media (min-width: 992px) { 
+/* 큰 화면 & 가로모드 */
+@media (min-width: 800px) and (orientation: landscape) { 
 
 	#bodyDiv{
 		background-image: url(../images/sky.png);
@@ -78,7 +78,7 @@ p {
 	
 	#contents{
 		background-color: #fff;
-	    height: 50%;
+	    height: 60%;
 	    width: 60%;
 	    border-radius: 15%;
 	    text-align: left;
@@ -121,7 +121,7 @@ p {
 	}
 	
 	p {
-    margin: 0 0 20px !important;
+    margin: 0 0 15px !important;
 	}
 }
 
