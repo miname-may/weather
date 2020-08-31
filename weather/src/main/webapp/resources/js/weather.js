@@ -4,7 +4,8 @@
 	var API_KEY = "aadb6c3af3c2ef08af264e2f6d815498";
 		
 	function getWeather(lat, lng) {
-		fetch("https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lng + "&appid=" + API_KEY + "&units=metric&lang=kr"
+		fetch(/* 사용자의 위치 기준 - "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lng + "&appid=" + API_KEY + "&units=metric&lang=kr"*/
+				"https://api.openweathermap.org/data/2.5/weather?lat=37.561153999999995&lon=127.09367619999999&appid=aadb6c3af3c2ef08af264e2f6d815498&units=metric&lang=kr"
 				).then(function(response) {	/* then = 앞의 fetch 실행 후 실행 */
 					return response.json();
 				}).then(function(json) {
