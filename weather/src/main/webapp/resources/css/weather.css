@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+body{
+	margin: 0;
+}
+	
+
+#bodyDiv{
+	background-image: url(../images/sky.png);
+	background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Jeju Gothic', sans-serif;
+}
+	
+#contents{
+	background-color: #fff;
+    height: 70%;
+    width: 60%;
+    border-radius: 15%;
+    text-align: center;
+    margin: auto;
+    padding: 3% 10%;
+    font-size: 2.7vw;
+}
+#title{
+	text-align: center;
+}
+#title>h1{
+	margin-top: 5vw;
+	color: #fff;
+	font-size: 4vw;
+	font-style: normal;
+	text-shadow: -4px 0 #CCECFF,
+	       0 4px #CCECFF,
+	       4px 0 #CCECFF,
+	       0 -4px #CCECFF;
+	position: relative;
+    display: inline-block;
+}
+#mainWeather{
+	font-size: 5vw;
+}
+.searchWeatherBtn{
+	background-color: #CCECFF;
+	border-color: #CCECFF;
+	color: #fff;
+}
+img{
+	width: 100px;
+}
+.icon-img{
+	font-size: 30vw;
+   	float: inherit;
+}
+
+p {
+    margin: 0 0 40px !important;
+}
+
+
+
+
+
+/* 큰 화면 */
+@media (min-width: 992px) { 
+
+	#bodyDiv{
+		background-image: url(../images/sky.png);
+		background-attachment: fixed;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    height: 100vh;
+	    font-family: 'Jeju Gothic', sans-serif;
+	}
+	
+	#contents{
+		background-color: #fff;
+	    height: 50%;
+	    width: 60%;
+	    border-radius: 15%;
+	    text-align: left;
+	    margin: auto;
+	    padding: 3% 7% !important;
+	    font-size: 1.8vw;
+	}
+	#title{
+		text-align: center;
+	}
+	
+	#title>h1{
+		color: #fff;
+		font-size: 4vw;
+		font-style: normal;
+		text-shadow: -4px 0 #CCECFF,
+		       0 4px #CCECFF,
+		       4px 0 #CCECFF,
+		       0 -4px #CCECFF;
+		position: relative;
+	    display: inline-block;
+	}
+	
+	#mainWeather{
+		font-size: 2.7vw;
+	}
+	
+	.searchWeatherBtn{
+		background-color: #CCECFF;
+		border-color: #CCECFF;
+		color: #fff;
+	}
+	img{
+		width: 100px;
+	}
+	
+	.icon-img{
+		font-size: 13vw !important;
+		float: right !important;
+	}
+	
+	p {
+    margin: 0 0 20px !important;
+	}
+}
+
+
+
+	
+
