@@ -89,6 +89,7 @@
 
 	function handleGeoError() {
 		console.log('위치를 읽어올 수 없습니다.');
+		getWeather(0, 0);	/* 사용자의 위치 기준으로 할 시 주석처리*/
 	}
 
 	function askForCoords() {
